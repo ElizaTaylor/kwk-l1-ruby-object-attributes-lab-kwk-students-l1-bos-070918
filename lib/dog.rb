@@ -2,7 +2,7 @@
 class Dog 
  def name 
 def breed
-  attr_reader :name, :breed 
+  attr_reader :name,:breed 
   @name = name 
   @breed = breed
 end
